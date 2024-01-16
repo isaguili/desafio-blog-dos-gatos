@@ -144,7 +144,7 @@ sidebar {
 }
 
 .resume-wraper:hover {
-  transform: scale(1.05);
+  padding-left: 1.1rem;
   filter: hue-rotate(4deg) contrast(110%) saturate(150%);
   transition-property: all;
   transition-duration: .4s;
@@ -240,6 +240,7 @@ article p {
 
   sidebar {
     grid-area: sidebar;
+    margin-top: 7.2rem;
     padding: 0;
   }
 
